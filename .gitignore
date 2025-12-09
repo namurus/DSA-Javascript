@@ -1,0 +1,59 @@
+# C/C++ build artifacts
+*.o
+*.obj
+*.lo
+*.pch
+*.gch
+
+# Libraries and binaries
+*.so
+*.so.*
+*.dylib
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+
+# Common build folders
+/build/
+/bin/
+/obj/
+/lib/
+/dist/
+/cmake-build-*/
+Debug/
+Release/
+x64/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Qt generated files
+moc_*.cpp
+qrc_*.cpp
+uic_*.h
+
+# Coverage and profiling
+*.gcda
+*.gcno
+*.gcov
+coverage/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.user
+*.suo
+*.VC.db
+*.ipch
+
+# Temp / logs / core dumps
+*.log
+*~
+*.tmp
+core
+core.*
